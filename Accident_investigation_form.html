@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accident investigation form</title>
+</head>
+<body background="https://freepngimg.com/download/rainbow/72584-rainbow-icons-color-light-computer-effects.png">
+    <table width="50%" cellpadding="20" cellspacing="20" align="center" border="20">
+        <tr><td>
+            <form>
+        <h2 align="center">Accident Investigation Form</h2>
+        Please include the reference ID of the injury report that this investigation is conducted on: <br><br>
+        <input type="text" name="txtreport" size="80"><br><br>
+        <strong> Injured Employee Information </strong><hr>
+        Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="txtname" placeholder="First" size="25"required>&nbsp;&nbsp;
+        <input type="text" name="txtname" placeholder="Last" size="25"><br><br>
+        Department: &nbsp;&nbsp;&nbsp;&nbsp;<select name="selDepart">
+            <option value="Marketing">Marketing</option>
+            <option value="Sales">Sales</option>
+            <option value="Production">Production</option>
+            <option value="Finance">Finance</option>
+            <option value="HumanResourse">Human Resourse</option>
+            <option value="Operation">Operation</option>
+        </select><br><br>
+        Job Title:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="txttitle" size="30"><br><br>
+        Gender: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="radgen" value="Male">Male
+        <input type="radio" name="radgen" value="Female">Female
+        <input type="radio" name="radgen" value="Transgender">Transgender<br><br>
+        Nature of injury/illness:<br>
+        <input type="checkbox" name="txtcheck" value="Amputation">Amputation<br>
+        <input type="checkbox" name="txtcheck" value="Brokenbone">Broken bone<br>
+        <input type="checkbox" name="txtcheck" value="Bruise">Bruise<br>
+        <input type="checkbox" name="txtcheck" value="Hernia">Hernia<br>
+        <input type="checkbox" name="txtcheck" value="Puncture">Puncture<br>
+        <input type="checkbox" name="txtcheck" value="Scrapes">Scrapes<br>
+        <input type="checkbox" name="txtcheck" value="Asthma">Asthma<br>
+        <input type="checkbox" name="txtcheck" value="Braininjury">Brain injury<br>
+        <input type="checkbox" name="txtcheck" value="Cerebralpalsy">Cerebral palsy<br>
+        <input type="checkbox" name="txtcheck" value="other">other:<br>
+        <input type="text" name="txtother" size="80" placeholder="Others"><br><br>
+        The employee works:<br>
+        <input type="radio" name="rademp" value="Fulltime">Full time<br>
+        <input type="radio" name="rademp" value="Parttime">Part time<br>
+        <input type="radio" name="rademp" value="Seasonal">Seasonal<br>
+        <input type="radio" name="rademp" value="Temporary">Temporary<br><br>
+        Months on the job since hired:<br><br>
+        <input type="text" name="txthired" size="80"><br><br>
+        <strong> Incident Description </strong><hr>
+        Location of the incident/accident: <br><br>
+        <input type="text" name="txtincid" size="80"><br><br>
+        What time of the day did it happen?<br>
+        <input type="checkbox" name="chktime" value="Entering or leaving work">Entering or leaving work<br>
+        <input type="checkbox" name="chktime" value="During normal activities">During normal activities<br>
+        <input type="checkbox" name="chktime" value="During lunch">During lunch<br>
+        <input type="checkbox" name="chktime" value="Working overtime">Working overtime<br>
+        <input type="checkbox" name="chktime" value="other">other:<br>
+        <input type="text" name="txtrother" size="80" placeholder="Others"><br><br>
+        Name of witness(es): <br><br>
+        <input type="text" name="txtwitn" size="80"required><br><br>
+        Photographs <br><br>
+        <input type="file" required><br><br>
+        Maps/drawings <br><br>
+        <input type="file" required><br><br>
+        <center><a href="Accident_2.html" target="_parent"><input type="button" value="Next Page"></a>&nbsp;&nbsp;&nbsp;
+        <a href="All_in_one_form.html" target="_parent"><input type="button" value="Back Page"></a></center>
+    </form>
+    </td></tr></table>
+    
+</body>
+</html>
